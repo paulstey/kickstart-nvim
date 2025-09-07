@@ -109,6 +109,12 @@ vim.opt.scrolloff = 10
 
 vim.g.rustfmt_autosave = true
 
+vim.opt.tabstop = 4 -- Number of spaces a TAB counts for
+
+vim.opt.shiftwidth = 4 -- Number of spaces to use for each step of autoindent
+
+vim.opt.softtabstop = 4 -- Number of spaces a TAB counts for when editing
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
